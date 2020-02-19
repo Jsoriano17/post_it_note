@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+     background :  linear-gradient(90deg, rgba(237,197,0,1) 0%, rgba(254,188,86,1) 100%);
+ }
+
+ h1 {
+    margin-left: 10px;
+     font-family: arial;
+ }
+ h2 {
+    margin-left: 10px;
+    font-family: arial;
+    text-decoration: underline;
+}
+
+ p {
+    margin-left: 10px;
+    font-family: arial;
+ }
+
+ a {
+    font-family: arial;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black
+ }
+
+ a:hover {
+     transition: all ease-in-out .2s;
+     color: white
+ }
