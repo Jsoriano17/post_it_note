@@ -1,12 +1,12 @@
 <h1> Create A New Note! </h1>
 <p><%= link_to 'Click here to create a new note', new_note_path %></p>
-<% @notes.each do |note| %>
 
 <h1> - Notes - </h1>
+
 <% @notes.each do |note| %>
   <h2><%= note.title %></h2>
-<% end %>
   <%= link_to 'Show Note', note_path(note) %>
   <%= link_to 'Edit Note', edit_note_path(note) %>
   <%= link_to 'Delete Note', note, method: :delete %>
-<% end %>
+  <% end %>
+  
