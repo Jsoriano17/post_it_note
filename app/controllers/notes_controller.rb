@@ -12,7 +12,6 @@ class NotesController < ApplicationController
   end
   def create
     @note = Note.new(notes_params)
- 
     if @note.save
       redirect_to notes_path
     else
